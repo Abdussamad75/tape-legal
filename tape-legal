@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tape - Legal Documents</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #007399;
+        }
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            color: #007399;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            color: #666;
+            font-size: 16px;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        .nav a {
+            color: #007399;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #007399;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .nav a:hover {
+            background: #007399;
+            color: white;
+        }
+        h1 {
+            color: #007399;
+            font-size: 32px;
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+        h2 {
+            color: #007399;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #005577;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #444;
+        }
+        .effective-date {
+            background: #f0f8ff;
+            padding: 15px;
+            border-left: 4px solid #007399;
+            margin: 20px 0;
+            font-weight: 600;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .contact-box {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #ddd;
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">TAPE</div>
+            <div class="tagline">Fashion Digitized</div>
+        </div>
+
+        <div class="nav">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms & Conditions</a>
+        </div>
+
+        <!-- PRIVACY POLICY -->
+        <section id="privacy" class="section">
+            <h1>Privacy Policy</h1>
+            <div class="effective-date">
+                Effective Date: March 3, 2025
+            </div>
+
+            <p>
+                Welcome to Tape ("we," "our," or "us"). We are committed to protecting your privacy and ensuring 
+                the security of your personal information. This Privacy Policy explains how we collect, use, store, 
+                and protect your data when you use the Tape mobile application.
+            </p>
+
+            <h2>1. Information We Collect</h2>
+            
+            <h3>1.1 Information You Provide</h3>
+            <ul>
+                <li><strong>Account Information:</strong> Name, email address, password, account type (individual/business), business address (for business accounts)</li>
+                <li><strong>Profile Information:</strong> Profile photo, website, social media handles (Facebook, Instagram), location (country and state/region)</li>
+                <li><strong>Client Data:</strong> Client names, phone numbers, measurements, garment preferences, notes</li>
+                <li><strong>Order Information:</strong> Order details, amounts, due dates, payment information, order status</li>
+                <li><strong>Notes:</strong> Personal notes and reminders you create within the app</li>
+            </ul>
+
+            <h3>1.2 Information Automatically Collected</h3>
+            <ul>
+                <li><strong>Device Information:</strong> Device type, operating system, app version</li>
+                <li><strong>Usage Data:</strong> Features used, time spent in app, interaction patterns</li>
+                <li><strong>Network Information:</strong> Internet connectivity status (to ensure app functionality)</li>
+            </ul>
+
+            <h2>2. Permissions We Request</h2>
+            
+            <h3>2.1 Camera Access</h3>
+            <p><strong>Why:</strong> To allow you to take photos for profile pictures and to scan QR codes for sharing client measurements.</p>
+            <p><strong>When:</strong> Only when you explicitly choose to take a photo or scan a QR code.</p>
+            <p><strong>Data Storage:</strong> Photos are stored securely in our cloud storage. QR code scans are processed immediately and not stored.</p>
+
+            <h3>2.2 Photo Library / Storage Access</h3>
+            <p><strong>Why:</strong> To allow you to upload existing photos for your profile picture.</p>
+            <p><strong>When:</strong> Only when you explicitly choose to select a photo from your gallery.</p>
+            <p><strong>Data Storage:</strong> Selected photos are uploaded to secure cloud storage.</p>
+
+            <h3>2.3 Location Access (Optional)</h3>
+            <p><strong>Why:</strong> To help you connect with tailors and businesses in your area through our "Find People" feature.</p>
+            <p><strong>When:</strong> Only when you set your country and state/region during signup or in your profile settings.</p>
+            <p><strong>Data Storage:</strong> We only store your selected country and state—we do NOT collect precise GPS coordinates.</p>
+
+            <h3>2.4 Notifications (Optional)</h3>
+            <p><strong>Why:</strong> To send you reminders about order due dates and important app updates.</p>
+            <p><strong>When:</strong> Only if you grant notification permission.</p>
+            <p><strong>Control:</strong> You can disable notifications at any time in your device settings.</p>
+
+            <h2>3. How We Use Your Information</h2>
+            <ul>
+                <li><strong>Provide Services:</strong> Enable you to store client measurements, manage orders, and organize your tailoring business</li>
+                <li><strong>Connect Users:</strong> Help you find and connect with other tailors and businesses based on location and account type</li>
+                <li><strong>Improve App:</strong> Analyze usage patterns to improve features and user experience</li>
+                <li><strong>Security:</strong> Protect your account from unauthorized access and detect fraudulent activity</li>
+                <li><strong>Communication:</strong> Send important updates about your account, orders, and app changes</li>
+            </ul>
+
+            <h2>4. How We Share Your Information</h2>
+            
+            <h3>4.1 Information We Share</h3>
+            <p><strong>With Other Users (Controlled by You):</strong></p>
+            <ul>
+                <li>Your profile information (name, country, state, account type, social media links) is visible to other users in the "Find People" section</li>
+                <li>Client measurements can only be shared via QR code that YOU generate and share</li>
+                <li>Your friends/connections can see your profile information</li>
+            </ul>
+
+            <p><strong>With Service Providers:</strong></p>
+            <ul>
+                <li>Appwrite (cloud hosting) - stores your data securely in Frankfurt, Germany</li>
+                <li>Cloud storage providers - store profile photos and images</li>
+            </ul>
+
+            <h3>4.2 Information We Never Share</h3>
+            <ul>
+                <li>We do NOT sell your personal information to third parties</li>
+                <li>We do NOT share your client data with advertisers</li>
+                <li>We do NOT use your measurements or order data for marketing purposes</li>
+            </ul>
+
+            <h2>5. Data Storage and Security</h2>
+            
+            <h3>5.1 Where Your Data is Stored</h3>
+            <p>Your data is stored on secure cloud servers operated by Appwrite, located in Frankfurt, Germany. All data transmission is encrypted using industry-standard SSL/TLS protocols.</p>
+
+            <h3>5.2 Security Measures</h3>
+            <ul>
+                <li>Password encryption using secure hashing algorithms</li>
+                <li>Encrypted data transmission (HTTPS)</li>
+                <li>Secure authentication tokens</li>
+                <li>Regular security audits</li>
+                <li>Access controls and permission systems</li>
+            </ul>
+
+            <h3>5.3 Data Retention</h3>
+            <ul>
+                <li><strong>Active Accounts:</strong> Your data is stored as long as your account is active</li>
+                <li><strong>Deleted Accounts:</strong> When you delete your account, all your personal data, clients, measurements, orders, and notes are permanently deleted within 30 days</li>
+                <li><strong>Backups:</strong> Backup copies may be retained for up to 90 days for disaster recovery purposes, then permanently deleted</li>
+            </ul>
+
+            <h2>6. Your Rights and Choices</h2>
+            
+            <h3>6.1 Access and Control</h3>
+            <ul>
+                <li><strong>View Your Data:</strong> Access all your information within the app</li>
+                <li><strong>Edit Your Data:</strong> Update your profile, clients, measurements, and orders at any time</li>
+                <li><strong>Download Your Data:</strong> Export your measurements and client data via QR codes</li>
+                <li><strong>Delete Your Data:</strong> Delete individual clients, measurements, orders, or your entire account</li>
+            </ul>
+
+            <h3>6.2 Privacy Controls</h3>
+            <ul>
+                <li>Choose your country and state visibility in "Find People"</li>
+                <li>Control who can connect with you</li>
+                <li>Disconnect from users at any time</li>
+                <li>Control notification preferences</li>
+            </ul>
+
+            <h3>6.3 Account Deletion</h3>
+            <p>You can delete your account at any time from the Profile screen. This will:</p>
+            <ul>
+                <li>Permanently delete all your personal information</li>
+                <li>Delete all client records and measurements</li>
+                <li>Delete all orders and analytics data</li>
+                <li>Delete all notes and connections</li>
+                <li>Remove your profile from "Find People"</li>
+            </ul>
+            <p><strong>This action cannot be undone.</strong></p>
+
+            <h2>7. Children's Privacy</h2>
+            <p>
+                Tape is not intended for children under 13 years of age (or 16 in the EEA). We do not knowingly 
+                collect personal information from children. If we learn that we have collected information from 
+                a child under the applicable age, we will delete it immediately.
+            </p>
+
+            <h2>8. International Data Transfers</h2>
+            <p>
+                Your data may be transferred to and stored in countries outside your country of residence, 
+                including Germany (where our servers are located). We ensure appropriate safeguards are in 
+                place to protect your data in accordance with this Privacy Policy.
+            </p>
+
+            <h2>9. Changes to This Privacy Policy</h2>
+            <p>
+                We may update this Privacy Policy from time to time. We will notify you of significant changes 
+                via the app or email. Your continued use of the app after changes constitutes acceptance of the 
+                updated policy.
+            </p>
+
+            <h2>10. Contact Us</h2>
+            <div class="contact-box">
+                <p><strong>If you have questions about this Privacy Policy or your data:</strong></p>
+                <p>Email: <a href="mailto:privacy@tape.app">privacy@tape.app</a></p>
+                <p>In-App: Use the Help screen to submit inquiries</p>
+            </div>
+        </section>
+
+        <!-- TERMS & CONDITIONS -->
+        <section id="terms" class="section">
+            <h1>Terms and Conditions</h1>
+            <div class="effective-date">
+                Effective Date: March 3, 2025
+            </div>
+
+            <p>
+                Welcome to Tape. By accessing or using the Tape mobile application, you agree to be bound by 
+                these Terms and Conditions ("Terms"). Please read them carefully.
+            </p>
+
+            <h2>1. Acceptance of Terms</h2>
+            <p>
+                By creating an account, accessing, or using Tape, you agree to these Terms, our Privacy Policy, 
+                and any additional terms applicable to specific features. If you do not agree, do not use the app.
+            </p>
+
+            <h2>2. Eligibility</h2>
+            <ul>
+                <li>You must be at least 18 years old to use Tape</li>
+                <li>You must provide accurate and complete registration information</li>
+                <li>You must not create multiple accounts or impersonate others</li>
+                <li>Business accounts must represent legitimate tailoring or fashion businesses</li>
+            </ul>
+
+            <h2>3. Account Responsibilities</h2>
+            
+            <h3>3.1 Your Account</h3>
+            <ul>
+                <li>You are responsible for maintaining the confidentiality of your password</li>
+                <li>You are responsible for all activities that occur under your account</li>
+                <li>Notify us immediately of any unauthorized use of your account</li>
+                <li>You must provide accurate country and location information</li>
+            </ul>
+
+            <h3>3.2 Account Types</h3>
+            <ul>
+                <li><strong>Individual Accounts:</strong> For independent tailors and fashion designers</li>
+                <li><strong>Business Accounts:</strong> For tailoring shops, fashion houses, and companies</li>
+            </ul>
+
+            <h2>4. Permitted Use</h2>
+            <p>Tape is designed for:</p>
+            <ul>
+                <li>Storing and managing client measurements</li>
+                <li>Managing tailoring orders and business operations</li>
+                <li>Connecting with other tailors and businesses</li>
+                <li>Sharing measurements via QR codes</li>
+                <li>Organizing business analytics and notes</li>
+            </ul>
+
+            <h2>5. Prohibited Activities</h2>
+            <p>You agree NOT to:</p>
+            <ul>
+                <li>Use the app for any illegal purposes</li>
+                <li>Upload offensive, harmful, or inappropriate content</li>
+                <li>Harass, abuse, or harm other users</li>
+                <li>Spam or send unsolicited messages to other users</li>
+                <li>Scrape, copy, or extract user data without permission</li>
+                <li>Reverse engineer, decompile, or hack the app</li>
+                <li>Create fake accounts or impersonate others</li>
+                <li>Use automated systems to access the app</li>
+                <li>Violate intellectual property rights</li>
+                <li>Interfere with app security or functionality</li>
+            </ul>
+
+            <h2>6. User Content</h2>
+            
+            <h3>6.1 Your Content</h3>
+            <p>
+                You retain ownership of all content you create in Tape (client measurements, photos, notes, etc.). 
+                By using Tape, you grant us a license to store, process, and display your content solely to 
+                provide the app's services.
+            </p>
+
+            <h3>6.2 Content Responsibility</h3>
+            <ul>
+                <li>You are solely responsible for the accuracy of measurements and data you enter</li>
+                <li>You must have the right to share any photos or content you upload</li>
+                <li>You must obtain client consent before storing their personal measurements</li>
+                <li>You are responsible for compliance with data protection laws in your country</li>
+            </ul>
+
+            <h3>6.3 Prohibited Content</h3>
+            <p>Do not upload content that is:</p>
+            <ul>
+                <li>Illegal, fraudulent, or violates others' rights</li>
+                <li>Defamatory, obscene, or offensive</li>
+                <li>Infringes intellectual property rights</li>
+                <li>Contains malware or harmful code</li>
+            </ul>
+
+            <h2>7. Connecting with Other Users</h2>
+            <ul>
+                <li>Connection requests can be sent to any user in "Find People"</li>
+                <li>Both parties must accept the connection</li>
+                <li>You can disconnect from users at any time</li>
+                <li>Be respectful and professional in all interactions</li>
+                <li>Report inappropriate behavior to us immediately</li>
+            </ul>
+
+            <h2>8. QR Code Sharing</h2>
+            <ul>
+                <li>QR codes allow you to share client measurements with others</li>
+                <li>YOU control when and with whom to share QR codes</li>
+                <li>Ensure you have client permission before sharing their measurements</li>
+                <li>QR codes may contain sensitive personal data—share responsibly</li>
+            </ul>
+
+            <h2>9. Payments and Transactions</h2>
+            <p>
+                Tape is a management tool. We do NOT process financial transactions. Any payments between you 
+                and your clients occur outside the app. You are responsible for:
+            </p>
+            <ul>
+                <li>Collecting payments from clients</li>
+                <li>Issuing receipts and invoices</li>
+                <li>Complying with tax laws in your country</li>
+                <li>Maintaining accurate financial records</li>
+            </ul>
+
+            <h2>10. Intellectual Property</h2>
+            
+            <h3>10.1 Our Rights</h3>
+            <p>
+                Tape, including the app design, logo, features, and content, is owned by us and protected by 
+                copyright, trademark, and other intellectual property laws. You may not copy, modify, or 
+                distribute the app without permission.
+            </p>
+
+            <h3>10.2 Your Rights</h3>
+            <p>
+                You retain all rights to your client data, measurements, photos, and content. We claim no 
+                ownership over your business information.
+            </p>
+
+            <h2>11. Disclaimers</h2>
+            
+            <h3>11.1 "As Is" Service</h3>
+            <p>
+                Tape is provided "as is" without warranties of any kind, express or implied. We do not guarantee:
+            </p>
+            <ul>
+                <li>Uninterrupted or error-free operation</li>
+                <li>Accuracy of measurements or calculations</li>
+                <li>Security against all possible threats</li>
+                <li>Compatibility with all devices</li>
+            </ul>
+
+            <h3>11.2 Professional Responsibility</h3>
+            <p>
+                Tape is a tool to assist your business. YOU are responsible for:
+            </p>
+            <ul>
+                <li>Verifying the accuracy of all measurements</li>
+                <li>Meeting client deadlines and expectations</li>
+                <li>Quality of your tailoring work</li>
+                <li>Business operations and customer service</li>
+            </ul>
+
+            <h2>12. Limitation of Liability</h2>
+            <p>
+                To the maximum extent permitted by law, we shall not be liable for:
+            </p>
+            <ul>
+                <li>Lost profits or business opportunities</li>
+                <li>Data loss (though we recommend regular backups via QR export)</li>
+                <li>Client disputes or dissatisfaction</li>
+                <li>Indirect, incidental, or consequential damages</li>
+                <li>Damages resulting from unauthorized access to your account</li>
+            </ul>
+
+            <h2>13. Indemnification</h2>
+            <p>
+                You agree to indemnify and hold us harmless from any claims, losses, or damages arising from:
+            </p>
+            <ul>
+                <li>Your use of the app</li>
+                <li>Your violation of these Terms</li>
+                <li>Your violation of others' rights</li>
+                <li>Your client relationships and business operations</li>
+            </ul>
+
+            <h2>14. Termination</h2>
+            
+            <h3>14.1 By You</h3>
+            <p>
+                You may delete your account at any time from the Profile screen. This will permanently delete 
+                all your data.
+            </p>
+
+            <h3>14.2 By Us</h3>
+            <p>We may suspend or terminate your account if:</p>
+            <ul>
+                <li>You violate these Terms</li>
+                <li>You engage in prohibited activities</li>
+                <li>We detect fraudulent or abusive behavior</li>
+                <li>Required by law</li>
+            </ul>
+            <p>We will provide notice when possible, but immediate termination may occur for serious violations.</p>
+
+            <h2>15. Changes to Terms</h2>
+            <p>
+                We may update these Terms from time to time. We will notify you of significant changes via the 
+                app or email. Continued use after changes constitutes acceptance of updated Terms.
+            </p>
+
+            <h2>16. Governing Law</h2>
+            <p>
+                These Terms are governed by the laws of Nigeria. Any disputes shall be resolved in Nigerian courts.
+            </p>
+
+            <h2>17. Dispute Resolution</h2>
+            <p>
+                If you have a dispute with us, please contact us first at support@tape.app to seek resolution 
+                informally. If we cannot resolve the issue, you agree to arbitration or mediation before 
+                pursuing legal action.
+            </p>
+
+            <h2>18. Severability</h2>
+            <p>
+                If any provision of these Terms is found unenforceable, the remaining provisions will continue 
+                in full force and effect.
+            </p>
+
+            <h2>19. Contact Information</h2>
+            <div class="contact-box">
+                <p><strong>For questions about these Terms:</strong></p>
+                <p>Email: <a href="mailto:legal@tape.app">legal@tape.app</a></p>
+                <p>Support: <a href="mailto:support@tape.app">support@tape.app</a></p>
+            </div>
+
+            <h2>20. Acknowledgment</h2>
+            <p>
+                By using Tape, you acknowledge that you have read, understood, and agree to be bound by these 
+                Terms and Conditions and our Privacy Policy.
+            </p>
+        </section>
+
+        <div class="footer">
+            <p>&copy; 2025 Tape - Fashion Digitized. All rights reserved.</p>
+            <p>Last Updated: March 3, 2025</p>
+        </div>
+    </div>
+</body>
+</html>
